@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+     background-color: black;
+}
+
+#container-1{
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+}
+.header{
+  text-align: center;
+  width: 100%;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 500;
+  background-color: black;
+}
+.header>h3{
+    font-size:1.3rem;
+}
+.middle{
+    box-sizing: border-box;
+    display: flex;
+    border-top: 7px solid #333;
+    height: 50%;
+    justify-content:space-around;
+    align-items: center;
+    background-color: white; 
+ 
+    
+  
+}
+.middle>img{
+  display: flex;
+  
+    width: 38%;
+    margin: auto;
+    left: 12px;
+    mix-blend-mode: multiply;
+}
+ .middle>h1{
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* margin: -9px; */
+    background-color: white;
+    color: black;
+    padding: 0px 30px;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 10.375rem;
+    width: 60%;
+  
+    line-height: 1.2;
+    
+} 
+.bio {
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 1000px;
+    background-color: black;
+    color: white;
+  }
+  
+  .bio > h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  
+  .bio > h5 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+  
+  .bio > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  
+  .bio > hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer{
+    position: relative;
+    display: inline-block;
+    margin:2px auto;
+  }
+  @media screen and (max-width: 576px) {
+    .bio > h2 {
+      font-size: 2.5rem;
+    }
+  
+    .bio > h5 {
+      font-size: 1.8rem;
+    }
+  
+    .bio > p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  .bio > h2,
+  .bio > h5,
+  .bio > p {
+    margin-bottom: 1rem; 
+  }
+  
+
